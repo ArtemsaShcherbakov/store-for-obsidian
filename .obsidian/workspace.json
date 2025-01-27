@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Итераторы и Генераторы.md",
+                "file": "Разное/Docker/Docker, Docker Compose.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Итераторы и Генераторы"
+              "title": "Docker, Docker Compose"
             }
           }
         ]
@@ -164,10 +164,26 @@
   },
   "active": "f2f70e68fc51096e",
   "lastOpenFiles": [
-    "JavaScript/Babel.md",
-    "JavaScript/Итераторы и Генераторы.md",
-    "Архитектура/MVC/MVC.md",
+    "Разное/Без названия.md",
+    "Архитектура/Реактивное программирование.md",
+    "Тесты/Test double.md",
+    "Тесты/Общее.md",
     "JavaScript/Типы данных/Типы данных.md",
+    "JavaScript/this/Task.md",
+    "JavaScript/use strict/use strict.md",
+    "Архитектура/MVC/MVC.md",
+    "JavaScript/Глобальный объект.md",
+    "JavaScript/Коллекции.md",
+    "JavaScript/Problem solving.md",
+    "JavaScript/this/this.md",
+    "JavaScript/Замыкание.md",
+    "Pasted image 20250126124800.png",
+    "Pasted image 20250125215241.png",
+    "Pasted image 20250125215228.png",
+    "Pasted image 20250125214948.png",
+    "JavaScript/Task for JS.md",
+    "JavaScript/Итераторы и Генераторы.md",
+    "JavaScript/Babel.md",
     "Архитектура/MVC/Без названия",
     "Архитектура/MVC",
     "Архитектура",
@@ -178,7 +194,6 @@
     "Разное/npm ci.md",
     "Frontend",
     "codePointAt(index).md",
-    "JavaScript/use strict/use strict.md",
     "JavaScript/Типы данных",
     "JavaScript/use strict",
     "JavaScript/Proxy и Reflect/Proxy и Reflect.md",
@@ -187,16 +202,9 @@
     "Разное",
     "JavaScript/Proxy и Reflect",
     "JavaScript/Формат JSON, метод toJSON/Формат JSON, метод toJSON.md",
-    "JavaScript/Task for JS.md",
     "JavaScript/Promises/Pasted image 20241112121844.png",
     "JavaScript/Promises/Task.md",
-    "JavaScript/Promises/Promise.md",
-    "JavaScript/Problem solving.md",
     "JavaScript/Deep object copy",
-    "JavaScript/this/Task.md",
-    "README.md",
-    "JavaScript/this/this.md",
-    "Без названия.md",
     "Без названия.canvas"
   ]
 }
