@@ -37,7 +37,7 @@ class Counter extends Component {
 ### static getDerivedStateFromProps(props, state)
 
 React вызовет его прямо перед вызовом [`render`,](https://react.dev/reference/react/Component#render) как при начальном монтировании, так и при последующих обновлениях. Он должен вернуть объект для обновления состояния или `null`не обновлять ничего.
-Этот метод существует для [редких случаев использования](https://legacy.reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html#when-to-use-derived-state) , когда состояние зависит от изменений в props с течением времени. Он позволяет компоненту обновлять свое внутреннее состояние в результате **изменений в props**.
+Этот метод существует для [редких случаев использования](https://legacy.reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html#when-to-use-derived-state) , когда состояние зависит от изменений в props с течением времени. **Он позволяет компоненту обновлять свое внутреннее состояние в результате **изменений в props**.
 
 #### Параметры[](https://react.dev/reference/react/Component#static-getderivedstatefromprops-parameters "Ссылка для параметров")
 
@@ -81,6 +81,10 @@ React вызовет его, чтобы определить, можно ли п
 ### getSnapshotBeforeUpdate(prevProps, prevState)
 
 Если вы реализуете `getSnapshotBeforeUpdate`, React вызовет его непосредственно перед тем, как React обновит DOM. Это позволяет вашему компоненту захватывать некоторую информацию из DOM (например, позицию прокрутки) до того, как она потенциально изменится. Любое значение, возвращаемое этим методом жизненного цикла, будет передано в качестве параметра в [`componentDidUpdate`.](https://react.dev/reference/react/Component#componentdidupdate)
+
+Этот метод полезен, если:  
+	 Нужно **измерить положение скролла** перед обновлением и восстановить его после.  
+	Нужно **получить старые данные DOM**, например, размеры элемента перед их изменением.
 
 #### Параметры[](https://react.dev/reference/react/Component#getsnapshotbeforeupdate-parameters "Ссылка для параметров")
 
